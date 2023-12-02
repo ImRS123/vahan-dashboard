@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 st.title("My Dashboard")
 
 # Save the HTML file
-with open("dashboard.html", "w") as f:
+with open("dashboard.html", "r") as f:
     f.read()
 
 # Open the HTML file in a web browser
